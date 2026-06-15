@@ -49,8 +49,12 @@
 ##Key Insights:
 
 -Buy & Hold outperformed the crossover strategy during a strong bull market.
+
+
 -The strategy reduced market exposure during bearish periods.
+
 -Risk adjusted returns remained positive.
+
 -Moving Average strategies can help manage downside risk but may underperform in long-term upward trends.
 
 ###Strategy vs Buy & Hold
