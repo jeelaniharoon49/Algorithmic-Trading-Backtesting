@@ -10,28 +10,39 @@
 
 #Objectives:
 -Download historical stock market data
+
+
 -Generate trading signals using moving averages
+
 -Backtest strategy performance
+
 -Compare returns against Buy & Hold
+
 -Calculate risk metrics
+
 -Visualize trading signals and portfolio performance
 
 ##Technologies Used:
 
 -Python
+
 -Pandas
+
 -NumPy
+
 -Matplotlib
+
 -Yahoo Finance (yFinance)
+
 -Strategy Logic
 
 #Buy Signal Generated when:
 
--50 Day Moving Average > 200-Day Moving Average
+-50 Day Moving Average > 200 Day Moving Average
 
 #Sell Signal Generated when:
 
--50 Day Moving Average < 200-Day Moving Average
+-50 Day Moving Average < 200 Day Moving Average
 
 ### Risk Metrics
 -Sharpe Ratio: Measures risk-adjusted returns.
@@ -41,9 +52,14 @@
 ##Results:
 
 -Metric	Value
+
+
 -Buy & Hold Return	244.00%
+
 -Strategy Return	46.01%
+
 -Sharpe Ratio	0.48
+
 -Maximum Drawdown	-26.58%
 
 ##Key Insights:
