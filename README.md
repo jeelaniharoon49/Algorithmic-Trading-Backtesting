@@ -18,44 +18,40 @@
 
 ##Technologies Used:
 
-Python
-Pandas
-NumPy
-Matplotlib
-Yahoo Finance (yFinance)
-Strategy Logic
+-Python
+-Pandas
+-NumPy
+-Matplotlib
+-Yahoo Finance (yFinance)
+-Strategy Logic
 
 #Buy Signal Generated when:
 
-50-Day Moving Average > 200-Day Moving Average
+-50-Day Moving Average > 200-Day Moving Average
 
 #Sell Signal Generated when:
 
-50-Day Moving Average < 200-Day Moving Average
+-50-Day Moving Average < 200-Day Moving Average
 
 ### Risk Metrics
-##Sharpe Ratio:
+-Sharpe Ratio: Measures risk-adjusted returns.
 
-Measures risk-adjusted returns.
-
-##Maximum Drawdown:
-
-Measures the largest portfolio decline from peak value.
+-Maximum Drawdown: Measures the largest portfolio decline from peak value.
 
 ##Results:
 
-Metric	Value
-Buy & Hold Return	244.00%
-Strategy Return	46.01%
-Sharpe Ratio	0.48
-Maximum Drawdown	-26.58%
+-Metric	Value
+-Buy & Hold Return	244.00%
+-Strategy Return	46.01%
+-Sharpe Ratio	0.48
+-Maximum Drawdown	-26.58%
 
 ##Key Insights:
 
-Buy & Hold outperformed the crossover strategy during a strong bull market.
-The strategy reduced market exposure during bearish periods.
-Risk-adjusted returns remained positive.
-Moving Average strategies can help manage downside risk but may underperform in long-term upward trends.
+-Buy & Hold outperformed the crossover strategy during a strong bull market.
+-The strategy reduced market exposure during bearish periods.
+-Risk-adjusted returns remained positive.
+-Moving Average strategies can help manage downside risk but may underperform in long-term upward trends.
 
 ###Strategy vs Buy & Hold
 <img width="1113" height="607" alt="image" src="https://github.com/user-attachments/assets/8ffc2f5e-1df8-407c-a2b0-e857aeb81da1" />
