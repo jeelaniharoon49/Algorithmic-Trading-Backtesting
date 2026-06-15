@@ -2,19 +2,19 @@
 
 ##Overview
 
-##This project implements and evaluates a Moving Average Crossover trading strategy using historical stock market data from Yahoo Finance.
+-This project implements and evaluates a Moving Average Crossover trading strategy using historical stock market data from Yahoo Finance.
 
-##The strategy generates buy and sell signals based on the relationship between a 50-day moving average and a 200-day moving average.
+-The strategy generates buy and sell signals based on the relationship between a 50-day moving average and a 200-day moving average.
 
-##The performance of the strategy is compared against a traditional Buy & Hold investment approach.
+-The performance of the strategy is compared against a traditional Buy & Hold investment approach.
 
 #Objectives:
-Download historical stock market data
-Generate trading signals using moving averages
-Backtest strategy performance
-Compare returns against Buy & Hold
-Calculate risk metrics
-Visualize trading signals and portfolio performance
+-Download historical stock market data
+-Generate trading signals using moving averages
+-Backtest strategy performance
+-Compare returns against Buy & Hold
+-Calculate risk metrics
+-Visualize trading signals and portfolio performance
 
 ##Technologies Used:
 
