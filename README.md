@@ -27,11 +27,11 @@
 
 #Buy Signal Generated when:
 
--50-Day Moving Average > 200-Day Moving Average
+-50 Day Moving Average > 200-Day Moving Average
 
 #Sell Signal Generated when:
 
--50-Day Moving Average < 200-Day Moving Average
+-50 Day Moving Average < 200-Day Moving Average
 
 ### Risk Metrics
 -Sharpe Ratio: Measures risk-adjusted returns.
@@ -50,19 +50,25 @@
 
 -Buy & Hold outperformed the crossover strategy during a strong bull market.
 -The strategy reduced market exposure during bearish periods.
--Risk-adjusted returns remained positive.
+-Risk adjusted returns remained positive.
 -Moving Average strategies can help manage downside risk but may underperform in long-term upward trends.
 
 ###Strategy vs Buy & Hold
+
 <img width="1113" height="607" alt="image" src="https://github.com/user-attachments/assets/8ffc2f5e-1df8-407c-a2b0-e857aeb81da1" />
+
 ###Buy/Sell Signal Visualization
+
 <img width="1290" height="572" alt="image" src="https://github.com/user-attachments/assets/25d0f085-d920-498e-8cee-a088d4214e04" />
 
 ##Future Improvements:
 
-Backtest multiple stocks simultaneously
-Add transaction costs
-Implement stop-loss mechanisms
-Compare alternative trading strategies
+-Backtest multiple stocks simultaneously
+
+-Add transaction costs
+
+-Implement stop-loss mechanisms
+
+-Compare alternative trading strategies
 Perform portfolio-level backtesting
 
