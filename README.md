@@ -31,9 +31,13 @@ This project answers the question: *"Can a data-driven trading strategy outperfo
 ## Buy & Sell Signals on Price Chart
 <img width="637" height="492" alt="image" src="https://github.com/user-attachments/assets/ca38792d-b8e9-40b5-ad97-6bb99484837d" />
 
-Results
+# Results
 
-MetricStrategyBuy & HoldCumulative Return46.01%244.0%Sharpe Ratio0.480.94Maximum Drawdown-26.58%-31.43%
+| Metric | Strategy | Buy & Hold |
+|---|---|---|
+| Cumulative Return | 46.01% | 244.0% |
+| Sharpe Ratio | 0.48 | 0.94 |
+| Maximum Drawdown | -26.58% | -31.43% |
 
 ## Key Takeaway
 Simple rule-based strategies do not always beat buy & hold — especially on trending growth stocks. This project demonstrates how to measure that honestly using cumulative returns, Sharpe ratio, and drawdown rather than just eyeballing a chart.
