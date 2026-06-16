@@ -1,94 +1,53 @@
-###Algorithmic Trading Strategy Backtesting
+Algorithmic Trading & Backtesting — Moving Average Crossover
 
-##Overview
+A Python project that builds and backtests a simple algorithmic trading strategy on Apple (AAPL) stock, comparing its performance against a passive buy & hold approach.
 
--This project implements and evaluates a Moving Average Crossover trading strategy using historical stock market data from Yahoo Finance.
-
--The strategy generates buy and sell signals based on the relationship between a 50-day moving average and a 200-day moving average.
-
--The performance of the strategy is compared against a traditional Buy & Hold investment approach.
-
-#Objectives:
--Download historical stock market data
+The Question This Project Answers
 
 
--Generate trading signals using moving averages
-
--Backtest strategy performance
-
--Compare returns against Buy & Hold
-
--Calculate risk metrics
-
--Visualize trading signals and portfolio performance
-
-##Technologies Used:
-
--Python
-
--Pandas
-
--NumPy
-
--Matplotlib
-
--Yahoo Finance (yFinance)
-
--Strategy Logic
-
-#Buy Signal Generated when:
-
--50 Day Moving Average > 200 Day Moving Average
-
-#Sell Signal Generated when:
-
--50 Day Moving Average < 200 Day Moving Average
-
-### Risk Metrics
--Sharpe Ratio: Measures risk-adjusted returns.
-
--Maximum Drawdown: Measures the largest portfolio decline from peak value.
-
-##Results:
-
--Metric	Value
+"When should I buy and sell?"
 
 
--Buy & Hold Return	244.00%
 
--Strategy Return	46.01%
+Instead of holding a stock indefinitely, this project tests whether a rule-based strategy — buy when short-term momentum is rising, sell when it falls — can be a smarter approach.
 
--Sharpe Ratio	0.48
+Strategy
 
--Maximum Drawdown	-26.58%
-
-##Key Insights:
-
--Buy & Hold outperformed the crossover strategy during a strong bull market.
+Moving Average Crossover (MA50 / MA200)
 
 
--The strategy reduced market exposure during bearish periods.
+Buy signal — when the 50-day moving average crosses above the 200-day moving average (golden cross)
+Sell signal — when the 50-day moving average crosses below the 200-day moving average (death cross)
+Data: AAPL daily prices from 2020 to 2025 via yfinance
 
--Risk adjusted returns remained positive.
+What the Project Does
 
--Moving Average strategies can help manage downside risk but may underperform in long-term upward trends.
 
-###Strategy vs Buy & Hold
+Downloads 5 years of AAPL price data
+Calculates 50-day and 200-day moving averages
+Generates buy/sell signals based on the crossover
+Computes daily strategy returns vs. market (buy & hold) returns
+Calculates cumulative returns, Sharpe ratio, and maximum drawdown
+Plots strategy vs. buy & hold performance
+Plots buy/sell signal markers on the price chart
 
-<img width="1113" height="607" alt="image" src="https://github.com/user-attachments/assets/8ffc2f5e-1df8-407c-a2b0-e857aeb81da1" />
 
-###Buy/Sell Signal Visualization
+Performance Metrics
 
-<img width="1290" height="572" alt="image" src="https://github.com/user-attachments/assets/25d0f085-d920-498e-8cee-a088d4214e04" />
+MetricDescriptionCumulative ReturnTotal return of the strategy vs. buy & hold over 5 yearsSharpe RatioRisk-adjusted return of the strategyMaximum DrawdownLargest peak-to-trough loss during the period
 
-##Future Improvements:
+Visualizations
 
--Backtest multiple stocks simultaneously
+1. Strategy vs. Buy & Hold — Cumulative Returns
+Compares how ₹1 invested in the MA crossover strategy grew vs. simply holding AAPL.
 
--Add transaction costs
+2. Moving Average Crossover Signals
+Shows AAPL price with buy signals (▲) and sell signals (▼) marked at each crossover point.
 
--Implement stop-loss mechanisms
+Tech Stack
 
--Compare alternative trading strategies
-Perform portfolio-level backtesting
+Python · pandas · numpy · yfinance · matplotlib
 
+Key Takeaway
+
+Simple rule-based strategies don't always beat buy & hold — especially on trending growth stocks like AAPL. This project demonstrates how to measure that honestly using cumulative returns, Sharpe ratio, and drawdown rather than just eyeballing a chart.
